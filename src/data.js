@@ -82,8 +82,8 @@ module.exports = {
   ],
   "profile": [
     "A software engineer with 10+ years of experience in developing web projects on a set of platforms either as a freelance worker or as part of an enterprise team.",
-    "Experience in developing projects from scratch to deployment, as well as in maintaining and bulking up applications already in production. Applied different development life cycle models according to the nature of each project, from agile to more restrictive models.",
-    "Worked with Java and Oracle in enterprise development, using frameworks like Hibernate, Spring, and JSF. Migrated to the freelancing market, focusing on developing Responsive Single Page Application with AngularJS, using PHP and MySQL in the backend, providing RESTful APIs by using Slim Framework. Started using ExpressJS/NodeJS and MongoDB on personal projects."
+    "Experience in developing projects from scratch to deployment, as well as in maintaining and bulking up applications already in production, applying from Agile to more restrictive models according to the nature of each project.",
+    "Worked with Java and Oracle in enterprise development, using frameworks like Hibernate, Spring, and JSF. Migrated to the freelancing market, focusing on developing responsive Single Page Application with AngularJS, using mainly PHP and MySQL in the backend, providing RESTful APIs by using Slim Framework. Started using ExpressJS/NodeJS and MongoDB on personal projects."
   ],
   "experience": [
     {
