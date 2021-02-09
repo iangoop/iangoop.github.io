@@ -101,7 +101,7 @@ module.exports = {
             "Participated in the development of a platform for the application on the innovation awards of the Brazilian National Confederation of Industry, using Spring MVC/AngularJS, with almost 4k applications on its launch year."
           ]
         },
-        "Worked under several types of contracts following multiple development models, such as waterfall, incremental, and Kanban."
+        "Worked under several types of contracts following multiple development models, such as waterfall, incremental, and Kanban, having, as major assignments, requirement analysis, project planning, data modeling, interface implementation from prototypes, coding, deploying, and maintenance."
       ]
     },
     {
