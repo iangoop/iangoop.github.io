@@ -40,22 +40,20 @@ module.exports = {
     {
       "category": "Frameworks",
       "skill": [
+        {"name":"Spring", "instance": []},
         {"name":"ExpressJS", "instance": []},
         {"name":"Slim", "instance": []},
-        {"name":"Spring", "instance": []},
         {"name":"Hibernate", "instance": []},
       ]
     },
     {
       "category": "Front-End",
       "skill": [
-        {"name":"AngularJS", "instance": []},
+        {"name":"Javascript", "instance": []},
         {"name":"HTML", "instance": []},
-        {"name":"CSS", "instance": []},
-        {"name":"Sass", "instance": []},
-        {"name":"Bootstrap", "instance": []},
-        {"name":"SPA", "instance": []},
-        {"name":"RWD", "instance": []},
+        {"name":"CSS/Sass/Less", "instance": []},
+        {"name":"AngularJS", "instance": []},
+        {"name":"jQuery/Bootstrap", "instance": []}
       ]
     },
     {
@@ -70,22 +68,25 @@ module.exports = {
       "skill": [
         {"name":"Git", "instance": []}
       ]
-    },
-    {
-      "category": "Building",
-      "skill": [
-        {"name":"Maven", "instance": []},
-        {"name":"Gulp", "instance": []},
-        {"name":"Webpack", "instance": []}
-      ]
     }
   ],
   "profile": [
     "A software engineer with 10+ years of experience in developing web projects on a set of platforms either as a freelance worker or as part of an enterprise team.",
     "Experience in developing projects from scratch to deployment, as well as in maintaining and bulking up applications already in production, applying from Agile to more restrictive models according to the nature of each project.",
-    "Worked with Java and Oracle in enterprise development, using frameworks like Hibernate, Spring, and JSF. Migrated to the freelancing market, focusing on developing responsive Single Page Application with AngularJS, using mainly PHP and MySQL in the backend, providing RESTful APIs by using Slim Framework. Started using ExpressJS/NodeJS and MongoDB on personal projects."
+    "Focused mainly on the development of rich user interface projects, using Java/Javascript as prime tech and PHP on freelance projects."
   ],
   "experience": [
+    {
+      "role": "Frontend Developer, Paws Group",
+      "period":"03/2021 - 11/2024",
+      "place":"London, England",
+      "highlights":[
+        "Worked as front-end lead developer on the upgrade of Paws.com in the transformation program to become Europe's Leading Dog and Cat Wellbeing Business",
+        "Refactored the storefront from a fresh Design System, tailoring the experience for customers on mobile, tablet and desktop, replacing and creating components in the Hybris platform using Javascript (jQuery), and Java (Spring).",
+        "Worked on optimising the storefront delivery, reducing the average page loading time by half, as well as meeting all metrics on Core Web Vitals Assessment.",
+        "Refactored the cart and checkout area simplifying the purchase process and introducing tiered shipping prices, reducing costs of shipping for the company at the same time as increasing the conversion rate and reaching the peak number of subscriptions on a total of 250k.",
+      ]
+    },
     {
       "role": "Freelance Developer",
       "period":"2014 - 2020",
