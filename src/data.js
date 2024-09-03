@@ -19,7 +19,7 @@ module.exports = {
   },
   "languages": [
     {"name":"Portuguese", "level": "Native"},
-    {"name":"English", "level":"Professional"}
+    {"name":"English", "level":"Fluent"}
   ],
   "skills":[
     {
@@ -83,6 +83,7 @@ module.exports = {
       "highlights":[
         "Worked as front-end lead developer on the upgrade of Paws.com in the transformation program to become Europe's Leading Dog and Cat Wellbeing Business",
         "Refactored the storefront from a fresh Design System, tailoring the experience for customers on mobile, tablet and desktop, replacing and creating components in the Hybris platform using Javascript (jQuery), and Java (Spring).",
+        "Worked on integrating third-party software via API like Klevu as search engine and Cloudinary as image repository.",
         "Worked on optimising the storefront delivery, reducing the average page loading time by half, as well as meeting all metrics on Core Web Vitals Assessment.",
         "Refactored the cart and checkout area simplifying the purchase process and introducing tiered shipping prices, reducing costs of shipping for the company at the same time as increasing the conversion rate and reaching the peak number of subscriptions on a total of 250k.",
       ]
