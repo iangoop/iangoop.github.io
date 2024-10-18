@@ -25,7 +25,7 @@ module.exports = {
     {
       "category":"Coding",
       "skill": [
-        {"name":"Javascript", "instance": []},
+        {"name":"Javascript", "instance": ["Vanilla", "Typescript"]},
         {"name":"Java", "instance": []},
         {"name":"PHP", "instance": []}
       ]
@@ -34,7 +34,7 @@ module.exports = {
       "category": "Databases",
       "skill": [
         {"name":"SQL", "instance": ["Oracle", "MySQL"]},
-        {"name":"NoSQL", "instance": ["MongoDB"]},
+        {"name":"NoSQL", "instance": ["MongoDB", "Firestore"]},
       ]
     },
     {
@@ -42,8 +42,10 @@ module.exports = {
       "skill": [
         {"name":"Spring", "instance": []},
         {"name":"ExpressJS", "instance": []},
+        {"name":"Fastify", "instance": []},
         {"name":"Slim", "instance": []},
         {"name":"Hibernate", "instance": []},
+        {"name":"Firebase", "instance": []},
       ]
     },
     {
@@ -53,7 +55,8 @@ module.exports = {
         {"name":"HTML", "instance": []},
         {"name":"CSS/Sass/Less", "instance": []},
         {"name":"AngularJS", "instance": []},
-        {"name":"jQuery/Bootstrap", "instance": []}
+        {"name":"jQuery/Bootstrap", "instance": []},
+        {"name":"React", "instance": []}
       ]
     },
     {
@@ -68,17 +71,24 @@ module.exports = {
       "skill": [
         {"name":"Git", "instance": []}
       ]
+    },
+    {
+      "category": "CI/CD",
+      "skill": [
+        {"name":"Github Actions", "instance": []}
+      ]
     }
   ],
   "profile": [
-    "A software engineer with 10+ years of experience in developing web projects on a set of platforms either as a freelance worker or as part of an enterprise team.",
-    "Experience in developing projects from scratch to deployment, as well as in maintaining and bulking up applications already in production, applying from Agile to more restrictive models according to the nature of each project.",
-    "Focused mainly on the development of rich user interface projects, using Java/Javascript as prime tech and PHP on freelance projects."
+    "A software engineer with 10+ years of experience in developing, deploying, and maintaining web applications across various platforms. Proficient in delivering both front-end and back-end solutions, from small-scale freelance projects to enterprise-level applications.",
+    "Proven success in optimizing performance, implementing responsive design systems, and improving e-commerce platforms to meet business goals and enhance customer experience.",
+    "Capable of working within Agile, Kanban, and other development models, tailoring approaches based on the project's needs. Strong collaborator and leader with experience in managing teams and driving projects through all stages of the software development lifecycle.",
+    "Focused mainly on the development of rich user interface projects, using Java/Javascript as prime tech and PHP on freelance projects. Hands-on experience with React, Firebase and Github Actions on an ongoing personal project."
   ],
   "experience": [
     {
       "role": "Frontend Developer, Paws Group",
-      "period":"03/2021 - 11/2024",
+      "period":"03/2021 - 11/2023",
       "place":"London, England",
       "highlights":[
         "Worked as front-end lead developer on the upgrade of Paws.com in the transformation program to become Europe's Leading Dog and Cat Wellbeing Business",
