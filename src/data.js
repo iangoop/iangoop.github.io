@@ -120,6 +120,24 @@ module.exports = {
   ],
   "projects": [
     {
+      "title": "E-commerce Subscription Service (In Progress)",
+      "link": "https://github.com/iangoop/subscriptions",
+      "alias": "github.com/iangoop/subscriptions",
+      "highlights": [
+        {
+          "group":"Building a full-stack subscription service to automate e-commerce orders based on user-defined frequencies.",
+          "highlights": [
+            "Backend: Developing an API with Fastify, integrated into Firebase Functions, providing CRUD functionality for Products and Customers, with Firestore as the data storage solution.",
+            "Frontend: Creating a pilot React application to manage Products and Customers through the API.",
+            "DevOps: Configuring a CI/CD pipeline using GitHub Actions to automate deployment of the React app to Firebase Hosting and the API to Firebase Functions.",
+            "Tech Stack: React, Fastify, Firebase (Functions, Firestore, Hosting), GitHub Actions."
+          ],
+        },
+        "This project is ongoing and serves as a practical learning experience in React, Firebase, API development, and CI/CD pipelines."
+      ]
+
+    },
+    {
       "title": "AngularJS components",
       "link": "http://npmjs.com/~ian.gopfert",
       "alias": "~ian.gopfert",

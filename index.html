@@ -107,8 +107,21 @@
                 <article>
                     <p class="display-7 pl-3"><strong><%- p.title %></strong> <a href="<%- p.link %>" target="_blank"><%- p.alias %></a> </p>
                     <ul>
-                        <%  _.forEach(p.highlights, function(hl) { %>
-                        <li><%- hl %></li>
+                        <%  _.forEach(p.highlights, function(h) { %>
+                        <% if (_.isString(h)) { %>
+                        <li><%- h %></li>
+                        <% } else { %>
+                        <li>
+                            <header>
+                                <%- h.group %>
+                            </header>
+                            <ul>
+                                <%  _.forEach(h.highlights, function(hl) { %>
+                                <li><%- hl %></li>
+                                <% }); %>
+                            </ul>
+                        </li>
+                        <% } %>
                         <% }); %>
                     </ul>
                 </article>

@@ -116,8 +116,21 @@
           <p class="display-6 pl-3"><strong><%- p.title %></strong> - <%- _.replace(_.replace(p.link, 'http://', ''),'www.','') %></p>
         </header>
         <ul>
-          <%  _.forEach(p.highlights, function(hl) { %>
-          <li><%- hl %></li>
+          <%  _.forEach(p.highlights, function(h) { %>
+          <% if (_.isString(h)) { %>
+          <li><%- h %></li>
+          <% } else { %>
+          <li>
+              <header>
+                  <%- h.group %>
+              </header>
+              <ul>
+                  <%  _.forEach(h.highlights, function(hl) { %>
+                  <li><%- hl %></li>
+                  <% }); %>
+              </ul>
+          </li>
+          <% } %>
           <% }); %>
         </ul>
       </article>
