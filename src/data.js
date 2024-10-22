@@ -114,7 +114,11 @@ module.exports = {
           ]
         },
         "Worked under several types of contracts following multiple development models, such as waterfall, incremental, and Kanban, having, as major assignments, requirement analysis, project planning, data modeling, interface implementation from prototypes, coding, deploying, and maintenance."
-      ]
+      ],
+      "links": [{
+        "text": "Check portfolio here",
+        "target": "./portfolio.html"
+      }]
     },
     {
       "role": "System Analyst/Full Stack Developer, ADDLabs/UFF",

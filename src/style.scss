@@ -175,6 +175,15 @@ body {
       padding: 1.1rem;
     }
     padding: $right-frame-space;
+    .references {
+      list-style: none;
+      text-align: right;
+      ul {
+        padding-top: .5rem;
+        font-size: 90%;
+        list-style-type: none;
+      }
+    }
   }
   @include border-bottom-right-radius(2px);
   @include border-top-right-radius(2px);

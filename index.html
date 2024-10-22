@@ -93,7 +93,17 @@
                         </li>
                         <% } %>
                         <% }); %>
+                        <% if (_.size(e.links)) { %>
+                            <li class="references">
+                                <ul>
+                                    <%  _.forEach(e.links, function(l) { %>
+                                        <li><a href="<%- l.target %>"><%- l.text %></a></li>
+                                    <% }); %>
+                                </ul>
+                            </li>    
+                        <% } %>
                     </ul>
+                    
                 </article>
                 <% }); %>
             </article>
