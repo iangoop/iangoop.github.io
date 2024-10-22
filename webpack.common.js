@@ -26,6 +26,11 @@ module.exports = {
             template: './print.html',
             excludeChunks: ['index']
         }),
+        new HtmlWebpackPlugin({
+            filename: 'portfolio.html',
+            template: './portfolio.html',
+            excludeChunks: ['index']
+        }),
     ],
     output: {
         //filename: '[name].[contenthash].js',

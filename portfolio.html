@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 40px;
+            color: #222;
+        }
+        .project {
+            margin-bottom: 40px;
+            padding: 20px;
+            background: #fff;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        .project h2 {
+            color: #1e90ff;
+            font-weight: bold;
+        }
+        .project p {
+            margin: 10px 0;
+            line-height: 1.6;
+        }
+        .project img {
+            object-fit: contain;
+            margin: 10px;
+            border-radius: 8px;
+        }
+        .project a {
+            text-decoration: none;
+            color: #1e90ff;
+        }
+        .project .screenshots {
+            display: flex;
+            justify-content: space-around;
+        }
+        .project .screenshots * {
+            min-width: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>My Portfolio</h1>
+
+        <!-- Ferramentex -->
+        <div class="project">
+            <h2>Ferramentex</h2>
+            <p>An application with modules for students of a digital marketing course to practice lessons. It’s responsive, built as a Single Page Application (SPA) with PHP, MySQL, Slim Framework, and AngularJS. I collaborated with a designer and product owner to bring the design into code.</p>
+            <p><strong>Technologies:</strong> PHP, MySQL, AngularJS, Slim Framework, Bootstrap, jQuery, Gulp.</p>
+            <div class="screenshots">
+                <img src="images/ferramentex_screenshot.png" alt="Ferramentex Project Screenshot">
+            </div>
+            <div class="screenshots">
+                <img src="images/ferramentex_screenshot2.png" alt="Ferramentex Project Screenshot">
+                <img src="images/ferramentex_screenshot3.png" alt="Ferramentex Project Screenshot">
+            </div>
+        </div>
+
+        <!-- PEA BMTE -->
+        <div class="project">
+            <h2>PEA BMTE</h2>
+            <p>A public web application designed to raise environmental awareness through an interactive quiz. Built with AngularJS and jQuery, this SPA works efficiently in scenarios with low internet connectivity.</p>
+            <p><strong>Technologies:</strong> AngularJS, jQuery, Gulp.</p>
+            <p><strong>Live Demo:</strong> <a href="http://pea.bmte.com.br/jogo/pergunta/1" target="_blank">PEA BMTE Quiz</a></p>
+            <div class="screenshots">
+                <img src="images/pea_bmte_screenshot.png" alt="PEA BMTE Project Screenshot">
+                <img src="images/pea_bmte_screenshot2.png" alt="PEA BMTE Project Screenshot">
+            </div>
+        </div>
+
+        <!-- Seminario do Sul -->
+        <div class="project">
+            <h2>Seminario do Sul</h2>
+            <p>This application works as an interface between applicants to a Theological College and a third-party software that manages college data. It is a SPA, responsive, and facilitates the subscription process through API calls.</p>
+            <p><strong>Technologies:</strong> AngularJS (frontend), PHP (backend).</p>
+            <div class="screenshots">
+                <img src="images/seminario_sul_screenshot.png" alt="Seminario do Sul Project Screenshot">
+                <img src="images/seminario_sul_screenshot2.png" alt="Seminario do Sul Project Screenshot">
+            </div>
+        </div>
+
+        <!-- Genium -->
+        <div class="project">
+            <h2>Genium</h2>
+            <p>A legacy administration portal for managing students, customized for different institutions. I maintained 7 versions of the portal and implemented additional modules when needed.</p>
+            <p><strong>Technologies:</strong> Core PHP, AngularJS, Angular Material.</p>
+            <div class="screenshots">
+                <img src="images/genium_screenshot.png" alt="Genium Project Screenshot">
+                <img src="images/genium_screenshot2.png" alt="Genium Project Screenshot">
+            </div>
+            <div class="screenshots">
+                <img src="images/genium_screenshot3.png" alt="Genium Project Screenshot">
+            </div>
+            <div class="screenshots">
+                <img src="images/genium_screenshot4.png" alt="Genium Project Screenshot">
+                <img src="images/genium_screenshot5.png" alt="Genium Project Screenshot">
+            </div>
+        </div>
+
+        <!-- CNI – PNI -->
+        <div class="project">
+            <h2>CNI – PNI</h2>
+            <p>A platform for the Brazilian National Confederation of Industry's innovation awards. I was part of a team, working on both backend (Java, Spring) and frontend (AngularJS).</p>
+            <p><strong>Technologies:</strong> Java (Spring), AngularJS.</p>
+            <div class="screenshots">
+                <img src="images/cni_pni_screenshot.png" alt="CNI – PNI Project Screenshot">
+                <img src="images/cni_pni_screenshot2.png" alt="CNI – PNI Project Screenshot">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
